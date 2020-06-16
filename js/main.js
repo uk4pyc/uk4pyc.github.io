@@ -3,16 +3,27 @@ var modal = document.getElementById('simpleModal');
 // Get open modulation
 var burger = document.getElementById('burger');
 
+function openModal() {
+    var x = document.getElementById("simpleModal");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+/*
 burger.onclick = function () {
     modal.style.display = "block";
 }
-
+burger.click = function () {
+    modal.style.display = "none"
+}
+*/
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
-
 // // Listen for open click
 // burger.addEventListener('click', openModal);
 
