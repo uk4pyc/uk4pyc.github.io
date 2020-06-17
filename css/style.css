@@ -154,22 +154,18 @@ ul {
 footer{
     background-color: #5b5a59;
     color: #e3e0de;
-    padding: 35px 0;
+    padding: 20px 0;
     margin-top: 30px;
 }
 
-.footer i {
+footer h3{
     color: #e3e0de;
 }
-.footer i:hover {
-    color: #517bb1;
-}
-
-.footer a {
-    color: #e3e0de;
+.footer a, .footer p{
+    color: #afaaa7;
 }
 .footer a:hover {
-    color: #517bb1;
+    color: #e3e0de;
 }
 .footer li{
     line-height: 2;
@@ -180,13 +176,44 @@ footer{
     margin: 0 auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
+.footer-end{
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #888583
+}
+.footer-end a {
+    color: #888583;
+    margin-right: 20px;
+}
+.footer-end p {
+    margin-top: 20px;
+}
 
-@media (max-width: 850px) {
+@media (max-width: 1050px) {
+    .home-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main-nav ul li {
+        padding: 0 20px;
+    }
+    .banner {
+        padding: 0 100px 20px 100px;
+    }
+    .footer .footer-inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
     .home-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -201,7 +228,7 @@ footer{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .menu-btn{
         display: block;
     }
@@ -214,11 +241,11 @@ footer{
     .main-nav .logo {
         margin: 0;
     }
-    .footer .footer-inner{
-        grid-template-columns: 1fr;
-    }
     .footer li{
         display: none;
+    }
+    footer{
+        padding: 0
     }
 }
 
