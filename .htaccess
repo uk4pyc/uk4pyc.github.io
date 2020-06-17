@@ -1,4 +1,3 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteCond %{REQUEST_FILENAME} !-d
-ReweiteRule ^(.*)$ $1.html [NC,L]
+ReweiteRule ^(.*)$ $1.html
