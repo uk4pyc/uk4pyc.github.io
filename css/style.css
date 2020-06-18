@@ -211,7 +211,7 @@ ul {
 
 /* Footer */
 footer{
-    background: url('/images/back2.jpg') no-repeat bottom right/cover;
+    background: url('/images/back2.jpg') no-repeat bottom right;
     color: #e3e0de;
     padding: 20px 0;
     margin-top: 30px;
