@@ -198,8 +198,7 @@ ul {
 .name-cards{
     display: grid;
     grid-gap: 30px;
-    max-width: 70%;
-    min-width: 500px;
+    max-width: 800px;
 }
 .name-cards div{
     display: flex;
@@ -299,6 +298,12 @@ footer h3{
     }
     .home-cards {
         grid-template-columns: 1fr;
+    }
+    .name-cards div {
+        display: block;
+    }
+    .name-cards{
+        width: auto;
     }
     .main-nav ul li {
         display: none;
