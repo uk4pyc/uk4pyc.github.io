@@ -148,15 +148,14 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-    border-radius: 10px;
+
 }
 .home-cards div{
     background: #fcfbfc;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+
 }
 .home-cards img{
-    border-radius: 10px 10px 0 0;
     width: 100%;
 }
 .home-cards h3, .home-cards p, .home-cards a{
@@ -204,7 +203,6 @@ ul {
     display: flex;
     background: #dad4d1;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 0 10px 10px 0;
 }
 .name-cards img{
     height: 200px;
@@ -215,7 +213,7 @@ ul {
 
 /* Footer */
 footer{
-    background-color: #5b5a59;
+    background: url('/images/back2.jpg') bottom right;
     color: #e3e0de;
     padding: 20px 0;
     margin-top: 30px;
@@ -304,6 +302,9 @@ footer h3{
     }
     .name-cards{
         width: auto;
+    }
+    .name-cards img{
+        margin: 10px;
     }
     .main-nav ul li {
         display: none;
