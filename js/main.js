@@ -5,13 +5,13 @@ var burger = document.getElementById('burger');
 
 burger.onclick = function () {
     modal.style.display = "block";
-}
+};
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
 // // Listen for open click
 // burger.addEventListener('click', openModal);
 

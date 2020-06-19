@@ -37,9 +37,7 @@ section div:nth-child(1)
     overflow: hidden;
 }
 section div:nth-child(1) h2{
-    -webkit-text-stroke: 1px;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-color: pink;
+    color: rgba(51, 66, 17, 0.363);
     left: 100%;
 
 }
