@@ -37,7 +37,7 @@ section div:nth-child(1)
     overflow: hidden;
 }
 section div:nth-child(1) h2{
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 2px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: pink;
     left: 100%;
@@ -46,7 +46,7 @@ section div:nth-child(1) h2{
 section div h2 {
     position: absolute;
     white-space:nowrap;
-    font-size: 12em;
+    font-size: 50vh;
     line-height: 100vh;
     animation: animate 60s linear infinite;
 
