@@ -26,7 +26,7 @@ ul {
     list-style: none;
 }
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
 }
@@ -229,7 +229,7 @@ footer h3{
     line-height: 2;
 }
 .footer-inner{
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
