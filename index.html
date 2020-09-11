@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,16 @@
     <script defer src="/js/all.js"></script>
 </head>
 <body>
-    <header class="v-header container">
-        <div class="fullscreen-video-wrap">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+    </ul>
+    </nav>
+    <section class="v-header container">
+        <div class="fullscreen-video-wrap" id="home">
             <video src="back.mp4" autoplay="true" loop="true" muted="true"></video>
         </div>
         <div class="header-overlay"></div>
@@ -18,28 +26,29 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum iusto explicabo aspernatur consequuntur incidunt sapiente cum quae numquam, adipisci qui nihil libero ducimus doloribus minima sed. Modi, non natus.</p>
             <a href="#" class="btn">Read More</a>
         </div>
-    </header>
-
-    <section class="section section-a">
+    </section>
+    <section class="services" id="services">
         <div class="container">
-            <h1>Section A</h1>
+            <h1>Servicios</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas iste molestiae error blanditiis doloribus! Quaerat consequatur a sed nulla quod expedita minima laboriosam? Officia, deserunt eaque magnam ad suscipit sequi tenetur nostrum repudiandae doloribus voluptatem fuga odio voluptates aspernatur est at nisi et labore rerum quidem ea in ipsa.</p>
         </div>
     </section>
 
-    <section class="section section-b">
+    <section class="about" id="about">
         <div class="container">
-            <h1>Section B</h1>
+            <h1>Sobre nosotros</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas iste molestiae error blanditiis doloribus! Quaerat consequatur a sed nulla quod expedita minima laboriosam? Officia, deserunt eaque magnam ad suscipit sequi tenetur nostrum repudiandae doloribus voluptatem fuga odio voluptates aspernatur est at nisi et labore rerum quidem ea in ipsa.</p>
-            <a href="http://facebook.com">
-            <i class="fab fa-facebook-square fa-2x"></i>
-            </a>
-            <a href="http://instagram.com">
-            <i class="fab fa-instagram-square fa-2x"></i>
-            </a>
-            <a href="http://twitter.com">
-            <i class="fab fa-twitter-square fa-2x"></i>
-            </a>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h1>Contactos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas iste molestiae error blanditiis doloribus! Quaerat consequatur a sed nulla quod expedita minima laboriosam? Officia, deserunt eaque magnam ad suscipit sequi tenetur nostrum repudiandae doloribus voluptatem fuga odio voluptates aspernatur est at nisi et labore rerum quidem ea in ipsa.</p>
+            <ul>
+                <li><a href="http://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="http://instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                <li><a href="http://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            </ul>
         </div>
     </section>
 </body>
